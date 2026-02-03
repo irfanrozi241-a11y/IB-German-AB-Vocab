@@ -551,6 +551,106 @@ const WORDS = [
   { id:"A2_rel_oft", de:"oft", en:"often", level:"A2" },
   { id:"A2_rel_selten", de:"selten", en:"rarely", level:"A2" },
 
+  // =========================================================
+  // B1 — Picture / Interpretation / Opinion / Future (IO set)
+  // (Added as B1 so it appears in the B1 tab)
+  // =========================================================
+
+  // 🖼️ Picture vocab (describe what you see)
+  { id:"B1_pic_auf_dem_bild", de:"Auf dem Bild", en:"in the picture", level:"B1" },
+  { id:"B1_pic_sehen", de:"sehen", en:"to see", level:"B1" },
+  { id:"B1_pic_ich_sehe", de:"ich sehe", en:"I see", level:"B1" },
+  { id:"B1_pic_eine_familie", de:"eine Familie", en:"a family", level:"B1" },
+  { id:"B1_pic_es_gibt", de:"es gibt", en:"there is / there are", level:"B1" },
+  { id:"B1_pic_der_vater", de:"der Vater", en:"the father", level:"B1" },
+  { id:"B1_pic_die_mutter", de:"die Mutter", en:"the mother", level:"B1" },
+  { id:"B1_pic_kind_kinder", de:"das Kind / die Kinder", en:"the child / the children", level:"B1" },
+  { id:"B1_pic_alle", de:"alle", en:"everyone / all", level:"B1" },
+  { id:"B1_pic_lachen", de:"lachen", en:"to laugh", level:"B1" },
+  { id:"B1_pic_sie_lachen", de:"sie lachen", en:"they laugh", level:"B1" },
+  { id:"B1_pic_wirken", de:"wirken", en:"to seem / appear", level:"B1" },
+  { id:"B1_pic_gluecklich", de:"glücklich", en:"happy", level:"B1" },
+  { id:"B1_pic_sehr", de:"sehr", en:"very", level:"B1" },
+  { id:"B1_pic_ich_denke", de:"ich denke", en:"I think", level:"B1" },
+  { id:"B1_pic_zeit_verbringen", de:"Zeit verbringen", en:"to spend time", level:"B1" },
+  { id:"B1_pic_zusammen", de:"zusammen", en:"together", level:"B1" },
+  { id:"B1_pic_zu_hause", de:"zu Hause", en:"at home", level:"B1" },
+  { id:"B1_pic_atmosphaere", de:"die Atmosphäre", en:"the atmosphere", level:"B1" },
+  { id:"B1_pic_positiv", de:"positiv", en:"positive", level:"B1" },
+  { id:"B1_pic_liebevoll", de:"liebevoll", en:"loving / affectionate", level:"B1" },
+
+  // Extra useful verbs
+  { id:"B1_pic_sitzen", de:"sitzen", en:"to sit", level:"B1" },
+  { id:"B1_pic_spielen", de:"spielen", en:"to play", level:"B1" },
+  { id:"B1_pic_reden_sprechen", de:"reden / sprechen", en:"to talk", level:"B1" },
+  { id:"B1_pic_laecheln", de:"lächeln", en:"to smile", level:"B1" },
+
+  // 💡 Interpretation vocab (what it shows)
+  { id:"B1_int_das_bild_zeigt", de:"Das Bild zeigt", en:"the picture shows", level:"B1" },
+  { id:"B1_int_wie", de:"wie", en:"how", level:"B1" },
+  { id:"B1_int_wichtig", de:"wichtig", en:"important", level:"B1" },
+  { id:"B1_int_die_familie", de:"die Familie", en:"the family", level:"B1" },
+  { id:"B1_int_gut", de:"gut", en:"good", level:"B1" },
+  { id:"B1_int_beziehung_beziehungen", de:"die Beziehung / die Beziehungen", en:"relationship / relationships", level:"B1" },
+  { id:"B1_int_machen", de:"machen", en:"to make / do", level:"B1" },
+  { id:"B1_int_menschen", de:"Menschen", en:"people", level:"B1" },
+
+  // Useful sentence chunks
+  { id:"B1_chunk_bild_zeigt_wichtig", de:"Das Bild zeigt, wie wichtig … ist.", en:"The picture shows how important … is.", level:"B1" },
+  { id:"B1_chunk_gute_beziehungen", de:"Gute Beziehungen machen Menschen glücklich.", en:"Good relationships make people happy.", level:"B1" },
+
+  // 👤 Personal connection vocab (connect to you)
+  { id:"B1_per_fuer_mich", de:"Für mich", en:"for me", level:"B1" },
+  { id:"B1_per_sehr_wichtig", level:"B1", de:"sehr wichtig", en:"very important" },
+  { id:"B1_per_ich_verbringe_gern", de:"ich verbringe gern", en:"I like spending (time)", level:"B1" },
+  { id:"B1_per_besonders", de:"besonders", en:"especially", level:"B1" },
+  { id:"B1_per_am_wochenende", de:"am Wochenende", en:"on the weekend", level:"B1" },
+  { id:"B1_per_wir", de:"wir", en:"we", level:"B1" },
+  { id:"B1_per_essen", de:"essen", en:"to eat", level:"B1" },
+  { id:"B1_per_zusammen_essen", de:"zusammen essen", en:"to eat together", level:"B1" },
+  { id:"B1_per_oder", de:"oder", en:"or", level:"B1" },
+  { id:"B1_per_schauen", de:"schauen", en:"to watch / look", level:"B1" },
+  { id:"B1_per_filme", de:"Filme", en:"films / movies", level:"B1" },
+  { id:"B1_per_macht_mich_gluecklich", de:"das macht mich glücklich", en:"that makes me happy", level:"B1" },
+  { id:"B1_per_mit_meiner_familie", de:"mit meiner Familie", en:"with my family", level:"B1" },
+  { id:"B1_per_oft", de:"oft", en:"often", level:"B1" },
+  { id:"B1_per_manchmal", de:"manchmal", en:"sometimes", level:"B1" },
+
+  // 🧠 Opinion vocab (easy grade boost)
+  { id:"B1_op_meiner_meinung_nach", de:"Meiner Meinung nach", en:"in my opinion", level:"B1" },
+  { id:"B1_op_es_ist_wichtig", de:"es ist wichtig", en:"it is important", level:"B1" },
+  { id:"B1_op_eine_gute_beziehung", de:"eine gute Beziehung", en:"a good relationship", level:"B1" },
+  { id:"B1_op_zur_familie", de:"zur Familie", en:"with/to the family", level:"B1" },
+  { id:"B1_op_zu_haben", de:"zu haben", en:"to have", level:"B1" },
+  { id:"B1_op_weil", de:"weil", en:"because", level:"B1" },
+  { id:"B1_op_man", de:"man", en:"you/one (general)", level:"B1" },
+  { id:"B1_op_unterstuetzung", de:"Unterstützung", en:"support", level:"B1" },
+  { id:"B1_op_bekommen", de:"bekommen", en:"to get / receive", level:"B1" },
+
+  // Super useful connectors
+  { id:"B1_con_deshalb", de:"deshalb", en:"therefore", level:"B1" },
+  { id:"B1_con_aber", de:"aber", en:"but", level:"B1" },
+  { id:"B1_con_und", de:"und", en:"and", level:"B1" },
+
+  // 🔮 Future vocab (future flex)
+  { id:"B1_fut_in_zukunft", de:"In Zukunft", en:"in the future", level:"B1" },
+  { id:"B1_fut_moechte_ich", de:"möchte ich", en:"I would like (to)", level:"B1" },
+  { id:"B1_fut_auch", de:"auch", en:"also", level:"B1" },
+  { id:"B1_fut_glueckliche_familie", de:"eine glückliche Familie", en:"a happy family", level:"B1" },
+  { id:"B1_fut_haben", de:"haben", en:"to have", level:"B1" },
+  { id:"B1_fut_spaeter", de:"später", en:"later", level:"B1" },
+  { id:"B1_fut_ich_werde", de:"ich werde", en:"I will (future)", level:"B1" },
+  { id:"B1_fut_ich_plane", de:"ich plane", en:"I plan", level:"B1" },
+
+  // ⭐ “Advanced” lines
+  { id:"B1_adv_heutzutage", de:"heutzutage", en:"nowadays", level:"B1" },
+  { id:"B1_adv_viele_menschen", de:"viele Menschen", en:"many people", level:"B1" },
+  { id:"B1_adv_weniger_zeit", de:"weniger Zeit", en:"less time", level:"B1" },
+  { id:"B1_adv_wegen", de:"wegen", en:"because of", level:"B1" },
+  { id:"B1_adv_der_stress", de:"der Stress", en:"stress", level:"B1" },
+  { id:"B1_adv_die_arbeit", de:"die Arbeit", en:"work / job", level:"B1" },
+  { id:"B1_adv_deshalb_caps", de:"Deshalb", en:"therefore", level:"B1" },
+  { id:"B1_adv_solche_momente", de:"solche Momente", en:"such moments", level:"B1" },
 
   // ==========================
   // Topic B.3 — Ferien (Holidays)
@@ -644,6 +744,106 @@ const WORDS = [
   { id:"B1_fer_souvenir", de:"das Souvenir / die Souvenirs", en:"souvenir(s)", level:"B1" },
   { id:"B1_fer_erfahrung", de:"die Erfahrung", en:"experience", level:"B1" },
 
+  // =========================================================
+  // C2 — Picture + Interpretation + Opinion (IO booster set)
+  // =========================================================
+
+  // 🖼️ Picture vocab (describe what you see)
+  { id:"C2_pic_auf_dem_bild", de:"Auf dem Bild", en:"in the picture", level:"A2", topic:"C2" },
+  { id:"C2_pic_sehen", de:"sehen", en:"to see / see", level:"A1", topic:"C2" },
+  { id:"C2_pic_ich_sehe", de:"ich sehe", en:"I see", level:"A2", topic:"C2" },
+  { id:"C2_pic_eine_familie", de:"eine Familie", en:"a family", level:"A2", topic:"C2" },
+  { id:"C2_pic_es_gibt", de:"es gibt", en:"there is / there are", level:"A2", topic:"C2" },
+  { id:"C2_pic_der_vater", de:"der Vater", en:"the father", level:"A2", topic:"C2" },
+  { id:"C2_pic_die_mutter", de:"die Mutter", en:"the mother", level:"A2", topic:"C2" },
+  { id:"C2_pic_das_kind", de:"das Kind", en:"the child", level:"A2", topic:"C2" },
+  { id:"C2_pic_die_kinder", de:"die Kinder", en:"the children", level:"A2", topic:"C2" },
+  { id:"C2_pic_alle", de:"alle", en:"everyone / all", level:"A2", topic:"C2" },
+  { id:"C2_pic_lachen", de:"lachen", en:"to laugh / laugh", level:"A2", topic:"C2" },
+  { id:"C2_pic_sie_lachen", de:"sie lachen", en:"they laugh", level:"A2", topic:"C2" },
+  { id:"C2_pic_wirken", de:"wirken", en:"to seem / appear", level:"B1", topic:"C2" },
+  { id:"C2_pic_gluecklich", de:"glücklich", en:"happy", level:"A2", topic:"C2" },
+  { id:"C2_pic_sehr", de:"sehr", en:"very", level:"A1", topic:"C2" },
+  { id:"C2_pic_ich_denke", de:"ich denke", en:"I think", level:"A2", topic:"C2" },
+  { id:"C2_pic_zeit_verbringen", de:"Zeit verbringen", en:"to spend time / spend time", level:"A2", topic:"C2" },
+  { id:"C2_pic_zusammen", de:"zusammen", en:"together", level:"A2", topic:"C2" },
+  { id:"C2_pic_zu_hause", de:"zu Hause", en:"at home", level:"A2", topic:"C2" },
+  { id:"C2_pic_atmosphaere", de:"die Atmosphäre", en:"the atmosphere", level:"B1", topic:"C2" },
+  { id:"C2_pic_positiv", de:"positiv", en:"positive", level:"B1", topic:"C2" },
+  { id:"C2_pic_liebevoll", de:"liebevoll", en:"loving / affectionate", level:"B1", topic:"C2" },
+
+  // Extra useful verbs
+  { id:"C2_pic_sitzen", de:"sitzen", en:"to sit / sit", level:"A2", topic:"C2" },
+  { id:"C2_pic_spielen", de:"spielen", en:"to play / play", level:"A1", topic:"C2" },
+  { id:"C2_pic_reden_sprechen", de:"reden / sprechen", en:"to talk / talk", level:"A2", topic:"C2" },
+  { id:"C2_pic_laecheln", de:"lächeln", en:"to smile / smile", level:"B1", topic:"C2" },
+
+  // 💡 Interpretation vocab (what it shows)
+  { id:"C2_int_das_bild_zeigt", de:"Das Bild zeigt", en:"the picture shows", level:"B1", topic:"C2" },
+  { id:"C2_int_wie", de:"wie", en:"how", level:"A2", topic:"C2" },
+  { id:"C2_int_wichtig", de:"wichtig", en:"important", level:"A2", topic:"C2" },
+  { id:"C2_int_die_familie", de:"die Familie", en:"the family", level:"A2", topic:"C2" },
+  { id:"C2_int_gut", de:"gut", en:"good", level:"A1", topic:"C2" },
+  { id:"C2_int_beziehung", de:"die Beziehung", en:"relationship", level:"B1", topic:"C2" },
+  { id:"C2_int_beziehungen", de:"die Beziehungen", en:"relationships", level:"B1", topic:"C2" },
+  { id:"C2_int_machen", de:"machen", en:"to make / do / make", level:"A1", topic:"C2" },
+  { id:"C2_int_menschen", de:"Menschen", en:"people", level:"A2", topic:"C2" },
+
+  // Useful sentence chunks
+  { id:"C2_sent_bild_zeigt_wichtig", de:"Das Bild zeigt, wie wichtig … ist.", en:"The picture shows how important … is.", level:"B1", topic:"C2" },
+  { id:"C2_sent_gute_beziehungen", de:"Gute Beziehungen machen Menschen glücklich.", en:"Good relationships make people happy.", level:"B1", topic:"C2" },
+
+  // 👤 Personal connection vocab (connect to you)
+  { id:"C2_per_fuer_mich", de:"Für mich", en:"for me", level:"A2", topic:"C2" },
+  { id:"C2_per_sehr_wichtig", de:"sehr wichtig", en:"very important", level:"A2", topic:"C2" },
+  { id:"C2_per_ich_verbringe_gern", de:"ich verbringe gern", en:"I like spending (time)", level:"B1", topic:"C2" },
+  { id:"C2_per_besonders", de:"besonders", en:"especially", level:"A2", topic:"C2" },
+  { id:"C2_per_am_wochenende", de:"am Wochenende", en:"on the weekend", level:"A2", topic:"C2" },
+  { id:"C2_per_wir", de:"wir", en:"we", level:"A1", topic:"C2" },
+  { id:"C2_per_essen", de:"essen", en:"to eat / eat", level:"A1", topic:"C2" },
+  { id:"C2_per_zusammen_essen", de:"zusammen essen", en:"to eat together", level:"A2", topic:"C2" },
+  { id:"C2_per_oder", de:"oder", en:"or", level:"A1", topic:"C2" },
+  { id:"C2_per_schauen", de:"schauen", en:"to watch / look", level:"A2", topic:"C2" },
+  { id:"C2_per_filme", de:"Filme", en:"films / movies", level:"A2", topic:"C2" },
+  { id:"C2_per_das_macht_mich_gluecklich", de:"das macht mich glücklich", en:"that makes me happy", level:"B1", topic:"C2" },
+  { id:"C2_per_mit_meiner_familie", de:"mit meiner Familie", en:"with my family", level:"A2", topic:"C2" },
+  { id:"C2_per_oft", de:"oft", en:"often", level:"A2", topic:"C2" },
+  { id:"C2_per_manchmal", de:"manchmal", en:"sometimes", level:"A2", topic:"C2" },
+
+  // 🧠 Opinion vocab (easy grade boost)
+  { id:"C2_op_meiner_meinung_nach", de:"Meiner Meinung nach", en:"in my opinion", level:"B1", topic:"C2" },
+  { id:"C2_op_es_ist_wichtig", de:"es ist wichtig", en:"it is important", level:"A2", topic:"C2" },
+  { id:"C2_op_eine_gute_beziehung", de:"eine gute Beziehung", en:"a good relationship", level:"B1", topic:"C2" },
+  { id:"C2_op_zur_familie", de:"zur Familie", en:"with the family", level:"B1", topic:"C2" },
+  { id:"C2_op_zu_haben", de:"zu haben", en:"to have", level:"A2", topic:"C2" },
+  { id:"C2_op_weil", de:"weil", en:"because", level:"A2", topic:"C2" },
+  { id:"C2_op_man", de:"man", en:"you/one (general)", level:"B1", topic:"C2" },
+  { id:"C2_op_unterstuetzung", de:"die Unterstützung", en:"support", level:"B1", topic:"C2" },
+  { id:"C2_op_bekommen", de:"bekommen", en:"to get / receive", level:"A2", topic:"C2" },
+  { id:"C2_op_deshalb", de:"deshalb", en:"therefore", level:"A2", topic:"C2" },
+  { id:"C2_op_aber", de:"aber", en:"but", level:"A1", topic:"C2" },
+  { id:"C2_op_und", de:"und", en:"and", level:"A1", topic:"C2" },
+
+  // 🔮 Future vocab (future flex)
+  { id:"C2_fut_in_zukunft", de:"In Zukunft", en:"in the future", level:"B1", topic:"C2" },
+  { id:"C2_fut_moechte_ich", de:"möchte ich", en:"I would like (to)", level:"A2", topic:"C2" },
+  { id:"C2_fut_auch", de:"auch", en:"also", level:"A1", topic:"C2" },
+  { id:"C2_fut_glueckliche_familie", de:"eine glückliche Familie", en:"a happy family", level:"B1", topic:"C2" },
+  { id:"C2_fut_haben", de:"haben", en:"to have / have", level:"A1", topic:"C2" },
+  { id:"C2_fut_spaeter", de:"später", en:"later", level:"A2", topic:"C2" },
+  { id:"C2_fut_ich_werde", de:"ich werde", en:"I will (future)", level:"B1", topic:"C2" },
+  { id:"C2_fut_ich_plane", de:"ich plane", en:"I plan", level:"A2", topic:"C2" },
+
+  // ⭐ “Advanced” line vocab (sound stronger)
+  { id:"C2_adv_heutzutage", de:"heutzutage", en:"nowadays", level:"B1", topic:"C2" },
+  { id:"C2_adv_viele_menschen", de:"viele Menschen", en:"many people", level:"B1", topic:"C2" },
+  { id:"C2_adv_weniger_zeit", de:"weniger Zeit", en:"less time", level:"B1", topic:"C2" },
+  { id:"C2_adv_wegen", de:"wegen", en:"because of", level:"B1", topic:"C2" },
+  { id:"C2_adv_stress", de:"der Stress", en:"stress", level:"B1", topic:"C2" },
+  { id:"C2_adv_arbeit", de:"die Arbeit", en:"work / job", level:"A2", topic:"C2" },
+  { id:"C2_adv_deshalb_caps", de:"Deshalb", en:"therefore", level:"B1", topic:"C2" },
+  { id:"C2_adv_solche_momente", de:"solche Momente", en:"such moments", level:"B1", topic:"C2" },
+  { id:"C2_adv_sehr_wichtig2", de:"sehr wichtig", en:"very important", level:"A2", topic:"C2" },
 
 
 
